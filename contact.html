@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+    <head lang="en">
+        <title>Central Secondary School Brits</title>
+        <link rel="stylesheet" href="styleweb.css" >
+        <script src="https://kit.fontawesome.com/431e092914.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <section class="sub-header" >
+            <nav>
+                <a href="index.html" ><img src="pictures/logo.jpeg"></a>
+                <div class="nav-links" id="navlinks">
+                    <ul>
+                        <li><a href="index.html">HOME</a></li>
+                        <li><a href="about.html">ABOUT</a></li>
+                        <li><a href="blog.html">GALLERY</a></li>
+                        <li><a href="classes.html">CLASSES</a></li>
+                        <li><a href="contact.html">CONTACT</a></li>
+                        <li><a href="staff.html">STAFF</a></li>
+                    </ul>
+                </div>
+            </nav>
+            <h1>CONTACT US</h1>    
+        </section>
+        <!--contact-page -->
+        <section class="location">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3596.8615794044604!2d27.783233579345705!3d-25.64271919999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1ebe31d4e8bf73c9%3A0x98e000a31aa88964!2sCentral%20Secondary%20School!5e0!3m2!1sen!2sza!4v1666203259970!5m2!1sen!2sza" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </section>
+
+        <section class="contact-us">
+            <div class="row">
+                <div class="contact-col">
+                    <i class="fa-solid fa-home"></i>
+                    <spam>
+                        <p>Sunrise Rd, Primindia<br>
+                        Brits, 0250</p>
+                    </spam>
+                </div>
+                <div class="contact-col">
+                    <div class="contact-col">
+                        <i class="fa-solid fa-phone"></i>
+                        <spam>
+                            <h5>012-252-4405</h5>
+                            <p>Monday to Friday, 7:30AM to 14:20PM</p>
+                        </spam>
+                    </div>
+                    <div>
+                        <i class="fa-solid fa-envelope"></i>
+                        <span>
+                            <h5>info@centralsecondaryschool.co.za</h5>
+                            <p>Email us your query</p>
+                        </span>
+                    </div>
+                </div>
+                <div class="contact-col">
+                    <form action="https://formsubmit.co/mnmwebs8@gmail.com" method="POST">
+                        <input type="hidden" name="_subject" value="New web enquiry!">
+                        <input type="text" name="name" placeholder="Enter your name" required>
+                        <input type="text" name="number" placeholder="Enter your number" required>
+                        <input type="text" name="email" placeholder="Enter your email address" required>
+                        <textarea rows="8" name="message" placeholder="Message"></textarea>
+                        <div>
+                        <button type="submit" class="hero-btn red-btn">Send message</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </section>
+        <!--footer-->
+        <section class="footer">
+            <h4>CENTRAL SECONDARY SCHOOL BRITS</h4>
+            <p>2022 All Rights Reserved</p>
+        </section>
+        <!--javascript for toggle menu-->
+        <script>
+            var navlinks = document.getElementById("navlinks");
+            function showMenu(){
+                navlinks.style.right = "0";
+            }
+            function hideMenu(){
+                navlinks.style.right = "-200px";
+            }
+        
+        </script>
+
+    </body>
+</html>
